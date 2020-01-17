@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<mavlink>
+
+    <include>common.xml</include>
+    <dialect>8</dialect>
+
+    <enums>
+      <enum name="LANDING_TARGET_TYPE">
+        <description>My new enum</description>
+        <entry value="0" name="ZERO">
+        <entry value="1" name="ONE">
+        </entry>    
+    </enums>
+
+    <messages>
+      <message id="10001" name="Doron's new message">
+      <description>General message. common.xml is included so the next valid id is 10001</description>
+      <field type="float" name="x">parameter1</field>
+      <field type="float" name="y">parameter2</field>
+      <field type="float" name="z">parameter3</field>
+    </messages>
+
+</mavlink>
