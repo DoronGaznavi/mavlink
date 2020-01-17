@@ -2,7 +2,7 @@
 <mavlink>
 
     <include>common.xml</include>
-    <dialect>8</dialect>
+    <dialect>1</dialect>
 
     <enums>
       <enum name="LANDING_TARGET_TYPE">
