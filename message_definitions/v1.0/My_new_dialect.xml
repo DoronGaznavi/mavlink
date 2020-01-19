@@ -5,7 +5,7 @@
     <dialect>1</dialect>
 
     <enums>
-      <enum name="LANDING_TARGET_TYPE">
+      <enum name="MY_ENUM">
         <description>My new enum</description>
         <entry value="0" name="ZERO">
         <entry value="1" name="ONE">
